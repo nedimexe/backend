@@ -10,7 +10,7 @@ const { Pool } = require('pg')
 
 const {
   PORT = 3000,
-  DATABASE_URL = "https://rqgntskjkootgtgmmeyi.supabase.com",
+  DATABASE_URL = "postgresql://postgres:[@nedamiki75N]@db.rqgntskjkootgtgmmeyi.supabase.co:5432/postgres",
   ADMIN_USER = "admin",
   ADMIN_PASS = "rp123",
   JWT_SECRET = "cigara",
