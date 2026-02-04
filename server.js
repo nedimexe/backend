@@ -11,9 +11,9 @@ const { Pool } = require('pg')
 const {
   PORT = 3000,
   DATABASE_URL = "https://rqgntskjkootgtgmmeyi.supabase.com",
-  ADMIN_USER,
-  ADMIN_PASS,
-  JWT_SECRET,
+  ADMIN_USER = "admin",
+  ADMIN_PASS = "rp123",
+  JWT_SECRET = "cigara",
   CORS_ORIGIN = '*'
 } = process.env
 
